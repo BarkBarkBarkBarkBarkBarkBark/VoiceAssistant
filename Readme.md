@@ -5,7 +5,7 @@ This repository contains elements that can be integrated as a voice-to-voice ass
 
 pip install -r Requirements.txt
 
-cd Voice Assistant
+cd VoiceAssistant
 
 cd openi-realtime-py
 
