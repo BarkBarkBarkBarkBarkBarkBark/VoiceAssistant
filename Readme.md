@@ -36,8 +36,11 @@ It should work out of the box, in console. I use Pycharm, but anything should be
 
 Interface: Operates via the console without requiring a graphical user interface, making it suitable for deployments without a display.
 Logging: Integration of logging functionality is recommended.
+
+## Streamlit Deploy
+
+I dont know if this will be needed in this project, but it is a quick way to spin up an app to test functionality. The livekit cloud console is very good.
 Integration: Compatible with the LiveKit script, enhancing its utility.
-Streamlit Deploy
 A straightforward deployment script for Streamlit applications.
 
-Enhancement: Future development aims to incorporate audio input/output capabilities.
+Future development should incorporate audio i/o.
