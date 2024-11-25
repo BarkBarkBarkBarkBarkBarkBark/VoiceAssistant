@@ -1,6 +1,14 @@
 # Voice-to-Voice Assistant Components
 This repository contains elements that can be integrated as a voice-to-voice assistant.
 
+The functions are redundant to an extent.
+
+Livekit Cloud and Open-AI Realtime both allow voice to voice. Livekit can be run locally, but i'm not sure if the GUI is avalible for local use. We will see.
+
+Pointer is a querey function, which allows models to determine the appropriate resource to access based on the user querey.
+
+Streamlit is just a basic script to generate a streamlit app, which may not be the best endpoint. I just included it here because it has proved helpful in the past. 
+
 ## LiveKit Cloud Voice Assistant
 LiveKit offers backend support for Large Language Model (LLM) interactions. Its main function is a voice chat interface, which can be accessed at https://agents-playground.livekit.io/
 
