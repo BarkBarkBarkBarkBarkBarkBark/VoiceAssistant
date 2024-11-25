@@ -1,0 +1,7 @@
+python-dotenv
+pyaudio
+websocket-client==1.6.0
+livekit-plugins-openai
+livekit-plugins-silero
+openai
+dotenv
