@@ -3,6 +3,8 @@ This repository contains elements that can be integrated as a voice-to-voice ass
 
 ### Quickstart
 
+you will need an openai api key in your .env
+
 pip install -r Requirements.txt
 
 cd VoiceAssistant
