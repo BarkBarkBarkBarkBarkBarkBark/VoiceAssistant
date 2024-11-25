@@ -32,6 +32,8 @@ Use Case: For instance, when a user in Sacramento seeks shelter, Pointer directs
 ## OpenAI-Realtime-py
 This module is a cloned GitHub repository implementing OpenAI Realtime.
 
+It should work out of the box, in console. I use Pycharm, but anything should be fine
+
 Interface: Operates via the console without requiring a graphical user interface, making it suitable for deployments without a display.
 Logging: Integration of logging functionality is recommended.
 Integration: Compatible with the LiveKit script, enhancing its utility.
