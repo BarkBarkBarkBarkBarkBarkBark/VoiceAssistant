@@ -1,32 +1,34 @@
-This package contains several elements that can eventually be combined into a voice to voice assistant. The elements are as follows
+# Voice-to-Voice Assistant Components
+This repository contains elements that can be integrated as a voice-to-voice assistant.
 
-########Pointer########
+## Pointer
+Pointer enforces selection among predefined options.
 
-Pointer forces a choice among pre-specified options.
+Functionality: Utilizes a Weaviate database containing a list of databases, descriptive paragraphs, and few-shot examples to guide selection.
+Purpose: Enables querying across multiple databases with differing data headers, preserving the integrity and format of publicly available datasets.
+Use Case: For instance, when a user in Sacramento seeks shelter, Pointer directs the query to the appropriate database containing social service information.
 
-A weaviate database contains a list of databases, a paragraph description, and few shot examples to guide selection.
+## LiveKit Cloud Voice Assistant
+LiveKit offers backend support for Large Language Model (LLM) interactions.
 
-The purpose is to enable queries of many different databases, where the data headers don't match and cannot be combined. This example uses databases containing information about social services in sacramento. A user requests assistance with something, for example they are seeking shelter, and pointer directs the query to the appropriate database. This allows us to preserve the integrity and format of publicly available databases.
+Workflow: Converts voice input to text, processes it through an LLM, and then converts the response back to speech.
+Latency: While there is noticeable latency, integrating the OpenAI Realtime API can mitigate this issue.
+Monitoring: Features an open-source console for auditing conversations, ensuring quality and appropriateness—ideal for personal LLMs where unsupervised user monitoring is crucial.
+To run the application:
 
-
-#######Livekit Cloud Voice Assistant#######
-
-Livekit provides backend support for LLM calls. This instance uses a voice to text to LLM, and then a text to speech to user format. There is a noticeable latency, but it is possible to use the OpenAI realtime api to reduce the latency. This is an excellent option for a single user, as there is a bundled and open source console. This can be used to audit conversations for quality and appropriateness. 
-
-I think it will be an excellent tool for personal LLMs, where monitoring is important where the user is unsupervised.
-
-
-To run the application, run from the terminal.
-    cd VoiceAssistant
-    python Talk.py start
-
-#######OpenAI-Realtime-py#######
-
-This is a cloned GitHub repo instantiating OpenAI Realtime. It works in console, without the need for any UI, so this will be excellent for any deployment where a screen is not necessary. Logging will need to be implemented. Best yet, this script will work when integrated into the Livekit script.
-
-#######Streamlit Deploy#######
-
-This is simple deploy script for streamlit. It would be good to get it to work with audio i/o
+bash
+Copy code
+cd VoiceAssistant
+python Talk.py start
 
 
+## OpenAI-Realtime-py
+This module is a cloned GitHub repository implementing OpenAI Realtime.
 
+Interface: Operates via the console without requiring a graphical user interface, making it suitable for deployments without a display.
+Logging: Integration of logging functionality is recommended.
+Integration: Compatible with the LiveKit script, enhancing its utility.
+Streamlit Deploy
+A straightforward deployment script for Streamlit applications.
+
+Enhancement: Future development aims to incorporate audio input/output capabilities.
