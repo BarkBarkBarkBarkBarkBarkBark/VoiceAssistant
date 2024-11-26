@@ -1,13 +1,11 @@
 # Voice-to-Voice Assistant Components
 This repository contains elements that can be integrated as a voice-to-voice assistant.
 
-### Quickstart
+### Quick start
+''' 
+git clone https://github.com/BarkBarkBarkBarkBarkBarkBark/VoiceAssistant.git
 
-git clone 
-
-you will need an openai api key in your .env
-
-pip install -r Requirements.txt
+pip install -r requirements.txt
 
 cd VoiceAssistant
 
@@ -15,13 +13,15 @@ cd openi-realtime-py
 
 python realtime-simple.py
 
+'''
+
 you will probably need to troubleshoot the packages!!!
 
-## Slowstart
+## Slow start
 
 This is primarily a library of tools which i hope can be combined into a single program, and then dockerized.
 
-The quickest way to use the voice to voice feature is the OpenAI-Realtime-py files, they should work in console. Remember that they need to be run locally, as they use local audio devices. I dont think the scripts will work in github codespace.
+The quickest way to use the voice to voice feature is the OpenAI-Realtime-py files, they should work in console. Remember that they need to be run locally, as they use local audio devices. I don't think the scripts will work in GitHub code space.
 
 The functions are redundant to an extent.
 
@@ -38,7 +38,7 @@ Latency: While there is noticeable latency, integrating the OpenAI Realtime API 
 Monitoring: Features an open-source console for auditing conversations, ensuring quality and appropriateness—ideal for personal LLMs where unsupervised user monitoring is crucial.
 To run the application:
 
-create an account at https://agents-playground.livekit.io/
+connect to playground at https://agents-playground.livekit.io/
 
 create a playground, get the url, api, and secret
 

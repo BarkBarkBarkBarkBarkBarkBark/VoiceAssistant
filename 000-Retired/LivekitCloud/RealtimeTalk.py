@@ -1,8 +1,17 @@
 import asyncio
 from dotenv import load_dotenv
-from livekit.agents import JobContext, WorkerOptions, cli
+from livekit.agents import (
+    AutoSubscribe,
+    JobContext,
+    WorkerOptions,
+    WorkerType,
+    cli,
+    llm,
+)
 from livekit.agents.multimodal import MultimodalAgent
 from livekit.plugins import openai
+
+
 
 load_dotenv()  # Load environment variables (e.g., OpenAI API key)
 
