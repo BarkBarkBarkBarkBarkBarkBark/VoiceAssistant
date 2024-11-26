@@ -2,7 +2,8 @@
 This repository contains elements that can be integrated as a voice-to-voice assistant.
 
 ### Quick start
-''' 
+
+
 git clone https://github.com/BarkBarkBarkBarkBarkBarkBark/VoiceAssistant.git
 
 pip install -r requirements.txt
@@ -13,7 +14,6 @@ cd openi-realtime-py
 
 python realtime-simple.py
 
-'''
 
 you will probably need to troubleshoot the packages!!!
 
