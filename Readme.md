@@ -10,9 +10,9 @@ pip install -r requirements.txt
 
 cd Realtime Livekit Cloud
 
-cd openi-realtime-py
+python RealtimeAgent.py start
 
-python realtime-simple.py
+access at https://agents-playground.livekit.io/
 
 
 you will probably need to troubleshoot the packages!!!
