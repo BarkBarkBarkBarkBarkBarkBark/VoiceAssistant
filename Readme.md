@@ -8,7 +8,7 @@ git clone https://github.com/BarkBarkBarkBarkBarkBarkBark/VoiceAssistant.git
 
 pip install -r requirements.txt
 
-cd VoiceAssistant
+cd Realtime Livekit Cloud
 
 cd openi-realtime-py
 
